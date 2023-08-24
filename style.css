@@ -1,0 +1,26 @@
+body {
+	font-family: 'Lato', sans-serif;
+	animation: rainbow 50s ease infinite;
+}
+
+h1 {
+	font-size: 64px;
+	color: #ffffff;
+}
+
+.background-colors {
+		
+}
+
+@keyframes rainbow {
+	0% {
+		background-color: #154a31;
+	}
+	50% {
+		background-color: #25154a;
+	}
+	100% {
+		background-color: #154a31;
+	}	
+
+}
